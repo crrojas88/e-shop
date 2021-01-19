@@ -1,4 +1,5 @@
 ---
+id: 3
 name: MacBook Pro
 description: A very expensive computer
 price: 200000

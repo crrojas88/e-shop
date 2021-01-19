@@ -1,4 +1,5 @@
 ---
+id: 4
 name: Pokemon Blue
 description: The best Pokemon game that contains all 151 Pokemon
 price: 20000
