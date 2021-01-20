@@ -4,8 +4,7 @@ import matter from 'gray-matter'
 import styled from 'styled-components'
 import UnstyledLink from '../components/styled/UnstyledLink'
 import useCart from '../hooks/useCart'
-import {useContext} from 'react'
-import { Context } from '../context/Cart'
+
 
 const Container = styled.div`
     background: white;
@@ -33,11 +32,9 @@ const Price = styled.div`
 `
 
 const renderProduct = (product, addItemToCart) => {
-    const { test } = useContext(Context)
-    console.log(test)
     const handleClick = (e) => {
         e.stopPropagation()
-        addItemToCart(product.id)
+        addItemToCart(product)
     }
         return(
             <Link key={product.id} href={product.slug}>
