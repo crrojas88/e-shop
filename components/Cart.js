@@ -90,7 +90,9 @@ const Cart = () => {
             </XContainer>
             <Content>
                 <Title>Cart</Title>
-                <Ul>
+                {cart.length > 0 ? (
+                    <>
+                    <Ul>
                     {cart.map((item) => {
                         return (
                         <Item key={item.id}>
@@ -105,6 +107,11 @@ const Cart = () => {
                     <span>${total / 100}</span>
                 </Total>
                 <Button onClick={navigateToCheckout}>Checkout</Button>
+                </>
+                ) : (
+                    <p>Cart is empty!</p>
+                )}
+                
             </Content>
         </Container>
     )
