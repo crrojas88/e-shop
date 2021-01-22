@@ -1,6 +1,7 @@
 import Page from '../components/styled/Page'
 import useCart from '../hooks/useCart'
 import styled from 'styled-components'
+import { useRouter } from 'next/router'
 
 const Item = styled.li`
     list-style: none;
@@ -21,7 +22,22 @@ const Total = styled.p`
 `
 
 const Button = styled.button`
-    background: linear-gradient(to right, #fc00ff, #00dbde);
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    font-size: 2rem
+    color: inherit;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+`
+
+const CancelButton = styled.button`
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
     font-size: 2rem
     color: inherit;
     outline: none;
@@ -37,9 +53,15 @@ const Button = styled.button`
 
 const Checkout = () => {
     const { cart, total } = useCart()
+    const router = useRouter()
 
     const processPayment = () => {
-        console.log("order processed!")
+        // alert("order processed!")
+        router.push('/success')
+    }
+
+    const cancelPayment = () => {
+        router.push('/cancelled')
     }
 
     return (
@@ -61,7 +83,7 @@ const Checkout = () => {
                 <span>Total</span>
                 <span>${total / 100}</span>
             </Total>
-            <Button onClick={processPayment}>Process Payment</Button>
+            <Button onClick={processPayment}>Process Payment</Button> &nbsp; <CancelButton onClick={cancelPayment}>Cancel Payment</CancelButton>
             </>
                 ) : (
                 <p>You don't appear to have any items in your cart!</p>

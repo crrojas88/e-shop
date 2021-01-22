@@ -56,7 +56,7 @@ const Total = styled.p`
 `
 
 const Button = styled.button`
-    background: linear-gradient(to right, #fc00ff, #00dbde);
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
     font-size: 2rem
     color: inherit;
     outline: none;
@@ -109,7 +109,7 @@ const Cart = () => {
                 <Button onClick={navigateToCheckout}>Checkout</Button>
                 </>
                 ) : (
-                    <p>Cart is empty!</p>
+                    <p>Your cart is empty!</p>
                 )}
                 
             </Content>
