@@ -56,7 +56,7 @@ const Total = styled.p`
 `
 
 const Button = styled.button`
-    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
     font-size: 2rem
     color: inherit;
     outline: none;

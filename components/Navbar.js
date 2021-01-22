@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import UnstyledLink from './styled/UnstyledLink'
 import { FiShoppingCart } from 'react-icons/fi'
 import useCart from '../hooks/useCart'
+import Image from 'next/image'
+
 
 
 const Nav = styled.nav`
@@ -33,12 +35,13 @@ const Navbar = () => {
     const handleClick = () => {
         openCart()
     }
-    
+
+
     return (
         <Nav>
             <NavContainer>
                 <Link href="/">
-                    <UnstyledLink>Home</UnstyledLink>
+                    <UnstyledLink><Image src='/alfajor-mama-v2.png' title='Logo' alt='Banana Logo' width={100} height={100}/></UnstyledLink>
                 </Link>
                 <ShoppingCart onClick={handleClick}/>
             </NavContainer>

@@ -6,7 +6,7 @@ import Cart from '../components/Cart'
 
 const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
-    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
     font-family: 'Padauk', sans-serif;
     color: #444;
     min-height: 100vh;
