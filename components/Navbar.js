@@ -41,7 +41,7 @@ const Navbar = () => {
         <Nav>
             <NavContainer>
                 <Link href="/">
-                    <UnstyledLink><Image src='/alfajor-mama-v2.png' title='Logo' alt='Banana Logo' width={100} height={100}/></UnstyledLink>
+                    <UnstyledLink><Image src='/alfajor-mama-v2.png' title='Logo' alt='Main Logo' width={100} height={100}/></UnstyledLink>
                 </Link>
                 <ShoppingCart onClick={handleClick}/>
             </NavContainer>
