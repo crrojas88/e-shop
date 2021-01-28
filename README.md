@@ -37,10 +37,12 @@ This application implements the following concepts used in React, Next.js, and J
 <br/>
 
 # Sample Images
+<img src="./public/Screen-Recording-2021-01-28-at-2.15.55-PM.gif" width="600" height="320"/>
+<br/>
 
 # Author
 Created by [Rodrigo Rojas](https://github.com/crrojas88)
 <br/>
 
-## Licence
+# Licence
 [MIT](https://choosealicense.com/licenses/mit/)

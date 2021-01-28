@@ -10,7 +10,7 @@ const Success = () => {
     }, [])
     return (
         <Page>
-            <h2>Payment successful!</h2>
+            <h2>Payment Successful!</h2>
             <p>Thank you for your purchase!</p>
         </Page>
     )
