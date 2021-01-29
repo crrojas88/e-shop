@@ -1,6 +1,6 @@
 # Rodslist E-Shop
 
-Welcome to [Rodslist](https://app.netlify.com/sites/rodslist/deploys), an e-commerce app built with Next.js!
+Welcome to [Rodslist](https://app.netlify.com/sites/rodslist/deploys), an e-commerce app built with Next.js and deployed on Netlify!
 <br/>
 
 ### With Rodslist you can:
