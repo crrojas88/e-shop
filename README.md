@@ -34,7 +34,25 @@ This application implements the following concepts used in React, Next.js, and J
 <br/>
 
 # Sample Images
+
+## GIF Presentation
 <img src="./public/Screen-Recording-2021-01-28-at-2.15.55-PM.gif" width="600" height="320"/>
+<br/>
+
+## Homepage 
+<img src="./public/Screen Shot 2021-01-28 at 4.06.09 PM.png" width="600" height="320"/>
+<br/>
+
+## Item Description Page
+<img src="./public/Screen Shot 2021-01-28 at 4.06.29 PM.png" width="600" height="320"/>
+<br/>
+
+## Cart Toggle
+<img src="./public/Screen Shot 2021-01-28 at 4.07.02 PM.png" width="600" height="320"/>
+<br/>
+
+## Checkout Page
+<img src="./public/Screen Shot 2021-01-28 at 4.07.17 PM.png" width="600" height="320"/>
 <br/>
 
 # Author
